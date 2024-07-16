@@ -2,24 +2,16 @@
 
 <template>
     <div class="container-fluid">
-        <div class="row row-cols-1 text-center">
-            <div class="col px-0 display-1">display 1</div>
-            <div class="col px-0 display-2">display 2</div>
-            <div class="col px-0 display-3">display 3</div>
-            <div class="col px-0 display-4">display 4</div>
-            <div class="col px-0 display-5">display 5</div>
-            <div class="col px-0 display-6">display 6</div>
-        </div>
-        <div class="row row-cols-1 text-center">
-            <div class="col px-0 h1">header 1</div>
-            <div class="col px-0 h2">header 2</div>
-            <div class="col px-0 h3">header 3</div>
-            <div class="col px-0 h4">header 4</div>
-            <div class="col px-0 h5">header 5</div>
-            <div class="col px-0 h6">header 6</div>
-        </div>
-        <div class="row row-cols-1 text-center">
-            <div class="col px-0">normal text</div>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <div class="row row-cols-1 gap-2">
+                    <div class="col px-0 display-4">Lorem ipsum dolor sit</div>
+                    <div class="col px-0 h3">Lorem ipsum dolor sit, amet consectetur adipisicing</div>
+                    <div class="col px-0">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit impedit unde iure beatae quibusdam praesentium aliquid debitis explicabo sed ducimus, eos, sunt dolore velit facilis obcaecati. Exercitationem, voluptatum delectus voluptates eius eligendi accusamus! Deserunt asperiores sit reprehenderit, necessitatibus, iure distinctio blanditiis, nulla quibusdam repellat voluptate vel ut cumque atque recusandae? Reiciendis enim unde magnam assumenda voluptatum provident commodi nisi nobis? Magni molestias asperiores quas! Quas enim earum voluptas ducimus accusantium laborum doloremque repellendus minima
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
