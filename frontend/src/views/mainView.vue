@@ -1,6 +1,7 @@
 <script setup>
 import { useBootstrapColorMode } from '@/composables/useBootstrapColorMode';
-import myComp from '../components/myComp.vue'
+import fontComp from '../components/fontComp.vue'
+import dataComp from '../components/dataComp.vue'
 
 const { toggleBootstrapColorMode } = useBootstrapColorMode();
 </script>
@@ -10,7 +11,8 @@ const { toggleBootstrapColorMode } = useBootstrapColorMode();
         <div class="row row-cols-1 justify-content-center gap-3">
         
             <div @click="toggleBootstrapColorMode()" class="col-auto btn btn-primary mt-3">Toggle Bootstrap ColorMode</div>
-            <myComp class="col" />
+            <fontComp class="col" />
+            <dataComp class="col" />
         </div>
     </div>
 </template>
